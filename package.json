@@ -1,0 +1,26 @@
+{
+  "name": "WESWEB02Repetition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiklasHj/WESWEB02Repetition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiklasHj/WESWEB02Repetition/issues"
+  },
+  "homepage": "https://github.com/NiklasHj/WESWEB02Repetition#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
