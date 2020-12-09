@@ -1,0 +1,18 @@
+<form action="/test" method="post">
+    <input type="text" name="kanelbulle">
+    <button type="submit">Send</button>
+</form>
+<ul >
+<% for (let i=0; i<messege.length; i++){ %>  
+<li><% messege[i] %> </li>
+<% } %> 
+<p>person:</p>
+<p><<%- messege[i].kanelbulle %> </p>
+<p>messege</p>
+<textarea name="niklas" id="" cols="30" rows="10">
+<%-messege[i].messege  %> 
+</textarea>
+</ul>
+</body>
+
+</html>
